@@ -39,7 +39,7 @@
 .nav-img p {
     font-size: 45px;
     font-weight: 700;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
 .nav-menus {
@@ -73,7 +73,6 @@
     align-items: center;
     margin-left: 60px;
     padding: 40px 0 40px 20px;
-
     height: 0 auto;
 
 }
@@ -180,7 +179,6 @@
     font-size: 17px;
     font-weight: 500;
 }
-/* video styles ends here */
 
 
 
@@ -224,7 +222,7 @@
     .nav-container {
         flex-direction: column;
         width: 100%;
-
+       
     }
 
     .nav-img {
@@ -244,7 +242,7 @@
 
     .banner-container {
         flex-direction: column-reverse;
-        width: 100%;
+        
         margin: auto;
         padding: 0px;
     }
@@ -262,6 +260,7 @@
         margin: auto;
         padding: 0 auto;
         margin-top: 50px;
+      
     }
     .video-container{
         flex-direction: column;
@@ -279,7 +278,7 @@
         margin-bottom: 40px;
     }
     .video-title{
-        font-size: 35px;
+        font-size: 29px;
         margin-top: 30px;
        
         width: 100%;
