@@ -6,24 +6,30 @@
 
 /* nav styles starts here */
 .nav-container {
-    margin: 0 auto;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 40px;
     background-color: white;
-    gap: 20px;
+   
+
+
+    margin: auto;
 }
 
 .nav-container a {
     text-decoration: none;
     margin-right: 20px;
     color: #3C354F;
+
 }
 
 .nav-img {
     display: flex;
     align-items: center;
+    margin-right: 200px;
+
 }
 
 .gamer {
@@ -38,7 +44,7 @@
 
 .nav-menus {
     font-size: 18px;
-    font-weight: 500;   
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
@@ -59,7 +65,78 @@
     -webkit-background-clip: text;
 }
 
+/* nav styles ends here */
+/* banner styles starts here */
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 60px;
+    padding: 40px 0 40px 20px;
+    
+    height: 0 auto;
 
+}
+
+.btn-one {
+    padding: 21px 40px;
+    background-color: #ff42a5;
+    color: white;
+    border: none;
+    border-radius: 48px;
+    margin-top: 40px;
+}
+
+.btn-two {
+    padding: 21px 40px;
+    color: white;
+    background-color: #4EC5F7;
+    border: none;
+    border-radius: 48px;
+    margin-top: 40px;
+}
+
+.banner-first {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.banner-sec {
+    font-size: 95px;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.fa-play {
+
+    color: #ff42a5;
+}
+
+.fa-solid {
+    margin-right: 10px;
+    width: 15px;
+}
+
+.banner-info p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+
+
+.banner-img img {
+    width: 75%;
+    margin-left: 90px;
+}
 
 
 
@@ -105,11 +182,48 @@
     .nav-container {
         flex-direction: column;
         width: 100%;
+
     }
-    .nav-menus{
+
+    .nav-img {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .nav-menus {
         flex-direction: column;
         margin-top: 40px;
         gap: 30px;
     }
-    
+
+    .fa-solid {
+        width: auto;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .banner-info {
+        margin-top: 60px;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+        margin: auto;
+        padding: 0 auto;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:930px) {
+    .nav-container {
+        gap: 30px;
+    }
 }
