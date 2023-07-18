@@ -12,7 +12,7 @@
     align-items: center;
     padding-top: 40px;
     background-color: white;
-   
+
 
 
     margin: auto;
@@ -73,7 +73,7 @@
     align-items: center;
     margin-left: 60px;
     padding: 40px 0 40px 20px;
-    
+
     height: 0 auto;
 
 }
@@ -130,15 +130,56 @@
     margin-top: 15px;
 }
 
-
-
-
 .banner-img img {
     width: 75%;
     margin-left: 90px;
 }
 
+/* banner styles ends here */
+/* video styles starts here */
+.video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 160px;
+}
 
+.video-container img {
+    width: 250px;
+
+}
+
+.video-container img:hover {
+    cursor: pointer;
+}
+
+.video-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.video-dis {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: 400;
+   
+
+}
+
+.funny {
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.cards p {
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 500;
+}
 
 
 
@@ -187,7 +228,7 @@
 
     .nav-img {
         text-align: center;
-        margin-left: 10px;
+        margin-left: 140px;
     }
 
     .nav-menus {
@@ -211,11 +252,45 @@
         margin-top: 60px;
 
     }
+    .btn-two{
+        margin-left: 20px;
+    }
 
     .banner-img img {
         width: 100%;
         margin: auto;
         padding: 0 auto;
+        margin-top: 50px;
+    }
+    .video-container{
+        flex-direction: column;
+        padding: 20px;
+  
+    }
+    .video-container img{
+        width: 100%;
+        
+     
+    }
+    .cards p{
+        width: 90%px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    .video-title{
+        font-size: 35px;
+        margin-top: 30px;
+       
+        width: 100%;
+       
+    }
+    .video-dis{
+        width: 100%;
+      
+    }
+    .bad{
+        display: inline-block;
+        margin-left: 20px;
         margin-top: 50px;
     }
 
@@ -226,7 +301,8 @@
     .nav-container {
         gap: 30px;
     }
-    .banner-container{
+
+    .banner-container {
         margin-top: 70px;
     }
 }
