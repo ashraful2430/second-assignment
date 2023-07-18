@@ -226,4 +226,7 @@
     .nav-container {
         gap: 30px;
     }
+    .banner-container{
+        margin-top: 70px;
+    }
 }
