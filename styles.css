@@ -54,6 +54,7 @@
     background-color: rgba(11, 2, 35, 0.10);
     padding: 18px;
     border-radius: 8px;
+    margin-right: 5px;
 }
 
 .fa-youtube {
@@ -122,12 +123,18 @@
     width: 15px;
 }
 
+.banner-info {
+    background-image: url('images/Group\ 14.png');
+    background-size: 100%;
+}
+
 .banner-info p {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
     text-align: left;
     margin-top: 15px;
+
 }
 
 .banner-img img {
@@ -180,6 +187,7 @@
     font-size: 17px;
     font-weight: 500;
 }
+
 /* video section ends here */
 /* promo styles starts here */
 .promo-container {
@@ -228,31 +236,33 @@
     bottom: 150px;
     margin-left: -90px;
 }
+
 /* promo styles ends here */
-.genre{
+
+
+.genre-info {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     margin-left: 100px;
     padding: 20px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+
 }
 
-.genre-one{
-    display: flex;
-    align-items: center;
-    margin-left: 150px;
-    padding: 0 100px;
-    margin-bottom: 50px;
-}
-.games:hover{
+.games:hover {
     cursor: pointer;
     border: 1px solid red;
     border-radius: 50px;
+    padding: 10px;
 }
-.games{
+
+.games {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 
@@ -382,7 +392,7 @@ footer {
 
     .nav-img {
         text-align: center;
-        margin-left: 140px;
+        margin-left: 184px;
     }
 
     .nav-menus {
@@ -398,7 +408,7 @@ footer {
 
     .banner-container {
         flex-direction: column;
-    
+
         margin: auto;
         padding: 20px;
     }
@@ -413,24 +423,24 @@ footer {
     }
 
     .banner-img img {
-      
+
         margin-top: 50px;
-       
+        margin-left: 55px;
         height: auto;
-    
-        
+
+
 
     }
 
     .banner-info {
-      
+
         margin-left: 10px;
     }
 
     .video-container {
         flex-direction: column;
         padding: 20px;
-       
+
     }
 
     .video-container img {
@@ -463,26 +473,28 @@ footer {
         margin-left: 20px;
         margin-top: 50px;
     }
-
+    .promo-info{
+        padding-right: 60px;
+    }
     .promo-container {
         flex-direction: column-reverse;
         margin: 40px auto;
         width: 90%;
         align-items: center;
-    
+
     }
 
     .promo-pic img {
-        padding: 50px;
-        margin-left: 50px;
+        padding: 43px;
+        margin-left: 29px;
         width: 65%;
-        
+
     }
 
     .float img {
         width: 30%;
         bottom: 170px;
-        
+
         padding: 10px;
     }
 
@@ -492,37 +504,41 @@ footer {
         margin-bottom: 20px;
         margin-bottom: 30px;
     }
- 
+
     .promo-dis {
         text-align: center;
         margin-top: 20px;
     }
- 
 
-    footer{
-        
+
+    footer {
+
         padding: 100px 20px;
-        
+
     }
-    .footer-dis{
+
+    .footer-dis {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
+
     }
-    .condition{
+
+    .condition {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
-    }
-   
 
-    .genre, .genre-one{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin: 20px auto;
-        padding: 10px;
     }
+    .genre-info{
+        padding: 0px;
+       margin: 50px auto;
+    }
+    .games span {
+        font-size: 13px;
 
+    }
+    .games img{
+        width: 30px;
+    }
 
 
 
@@ -560,14 +576,32 @@ footer {
         grid-template-columns: repeat(2, 1fr);
 
     }
-    .promo-container{
+
+    .promo-container {
         display: flex;
         flex-direction: column-reverse;
     }
-    .promo-pic img{
+
+    .promo-pic img {
         margin-top: 50px;
+        padding-left: 40px;
     }
-    .promo-title{
+    .promo-info{
+        padding-right: 150px;
+        text-align: center;
+    }
+    .promo-title {
         margin-bottom: 40px;
+    }
+    .genre-info{
+        padding: 0px;
+       margin: 50px auto;
+    }
+    .games span {
+        font-size: 13px;
+
+    }
+    .games img{
+        width: 30px;
     }
 }
