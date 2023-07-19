@@ -318,7 +318,7 @@ footer {
     justify-content: center;
     margin-top: 40px;
     gap: 40px;
-
+    font-size: 45px;
     text-align: center;
 }
 
@@ -500,23 +500,21 @@ footer {
  
 
     footer{
-        width: 500px;
+        
         padding: 100px 20px;
-        border: 2px solid yellow;
+        
     }
     .footer-dis{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        border: 2px solid yellow;
+        
     }
     .condition{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid yellow;
+        
     }
-    .last{
-        border: 2px solid yellow;
-    }
+   
 
     .genre, .genre-one{
         display: grid;
