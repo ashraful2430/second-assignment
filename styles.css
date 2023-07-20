@@ -322,34 +322,39 @@ footer {
 
 /* footer styles ends here */
 
-.intro{
+.intro {
     display: none;
     position: absolute;
     top: 50%;
     left: 47%;
     transform: translate(-50%, -50%);
-    color:rgb(70, 92, 216);
+    color: rgb(70, 92, 216);
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     padding: 19px;
     border-radius: 50%;
 }
-.intro p{
+
+.intro p {
     font-weight: 700;
     color: #08FFF9;
 }
-.cards{
+
+.cards {
     position: relative;
     overflow: hidden;
 
 }
-.cards:hover .intro{
-    display:block;
-}
-.cards:hover .intro p{
+
+.cards:hover .intro {
     display: block;
 }
+
+.cards:hover .intro p {
+    display: block;
+}
+
 /* .cards img{
     width: 270px;
     height: 300px;
@@ -367,7 +372,7 @@ footer {
 
     .nav-img {
         text-align: center;
-        margin-left: 184px;
+        margin-left: 150px;
     }
 
     .nav-menus {
@@ -383,14 +388,19 @@ footer {
 
     .banner-container {
         flex-direction: column;
-
         margin: auto;
         padding: 20px;
+
+        width: 80%;
+        height: auto;
+
     }
 
     .banner-info {
         margin-top: 60px;
-
+     
+        padding: 10px;
+       
     }
 
     .btn-two {
@@ -398,19 +408,14 @@ footer {
     }
 
     .banner-img img {
-
         margin-top: 50px;
-        margin-left: 55px;
         height: auto;
-
-
-
+        margin-left: 50px;
+        width: 80%;
     }
 
-    .banner-info {
 
-        margin-left: 10px;
-    }
+
 
     .video-container {
         flex-direction: column;
@@ -448,9 +453,11 @@ footer {
         margin-left: 20px;
         margin-top: 50px;
     }
-    .promo-info{
+
+    .promo-info {
         padding-right: 60px;
     }
+
     .promo-container {
         flex-direction: column-reverse;
         margin: 40px auto;
@@ -503,15 +510,18 @@ footer {
         grid-template-columns: repeat(2, 1fr);
 
     }
-    .genre-info{
+
+    .genre-info {
         padding: 0px;
-       margin: 50px auto;
+        margin: 50px auto;
     }
+
     .games span {
         font-size: 13px;
 
     }
-    .games img{
+
+    .games img {
         width: 25px;
     }
 
@@ -539,20 +549,25 @@ footer {
 
         text-align: center;
     }
-    .nav-img{
+
+    .nav-img {
         margin-right: 0px;
     }
+
     .banner-container {
         margin-top: 70px;
         flex-direction: column;
 
     }
-    .banner-img img{
+
+    .banner-img img {
         margin-left: 45px;
     }
-    .banner-info{
+
+    .banner-info {
         margin-left: -40px;
     }
+
     .video-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -568,22 +583,27 @@ footer {
         margin-top: 50px;
         padding-left: 40px;
     }
-    .promo-info{
+
+    .promo-info {
         padding-right: 150px;
         text-align: center;
     }
+
     .promo-title {
         margin-bottom: 40px;
     }
-    .genre-info{
+
+    .genre-info {
         padding: 0px;
-       margin: 50px auto;
+        margin: 50px auto;
     }
+
     .games span {
         font-size: 13px;
 
     }
-    .games img{
+
+    .games img {
         width: 30px;
     }
 }
