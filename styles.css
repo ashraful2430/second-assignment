@@ -265,40 +265,6 @@
     margin-left: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer styles starts here */
 footer {
     background-color: #0B0223;
@@ -356,29 +322,38 @@ footer {
 
 /* footer styles ends here */
 
+.intro{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    color:rgb(70, 92, 216);
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 19px;
+    border-radius: 50%;
+}
+.intro p{
+    font-weight: 700;
+    color: #08FFF9;
+}
+.cards{
+    position: relative;
+    overflow: hidden;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.cards:hover .intro{
+    display:block;
+}
+.cards:hover .intro p{
+    display: block;
+}
+/* .cards img{
+    width: 270px;
+    height: 300px;
+} */
 
 
 
@@ -537,7 +512,7 @@ footer {
 
     }
     .games img{
-        width: 30px;
+        width: 25px;
     }
 
 
@@ -564,13 +539,20 @@ footer {
 
         text-align: center;
     }
-
+    .nav-img{
+        margin-right: 0px;
+    }
     .banner-container {
         margin-top: 70px;
         flex-direction: column;
 
     }
-
+    .banner-img img{
+        margin-left: 45px;
+    }
+    .banner-info{
+        margin-left: -40px;
+    }
     .video-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
